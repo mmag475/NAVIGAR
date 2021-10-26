@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    height: 700px;
+    background-image: linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.4) ),url(images/lake-constance-3603394_1920.jpg);
+    background-position: right;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 20px;
+    
+}
+
+@media only screen and (max-width: 550px) {
+    #header .title-container h1 {
+      font-size: 35px;        
+    }
+    
+  }
+
+#header img {
+    width: 50px;
+    height: auto;
+    float: left;
+}
+
+#header .ph-nav-container {
+	flex-grow: 4;
+	text-align: right;
+}
+
+#header .ph-nav-container ul {
+	margin: 0;
+	padding: 0;
+}
+
+#header .ph-nav-container ul li {
+	display: inline-block;
+	padding: 0 10px;
+}
+
+#header .ph-nav-container ul li a {
+	color: white;
+	text-decoration: none;
+    transition: 250ms;
+    text-shadow: #E1721D;
+    font-weight: 500;
+}
+
+#header .ph-nav-container ul li a:hover {
+	color: #E1721D;
+	transition: 250ms;
+}
+
+.title-container{
+    
+    margin: 0 80px;
+}
+
+#header  h1 {
+    padding-top: 250px;
+    font-size: 75px;
+    font-family: serif;
+    color: white;
+    text-shadow: 0 0 8px black;
+    padding-bottom: 0;
+    letter-spacing: 5px;
+    line-height: 1.2;
+}
+
+#header p {
+    font-family: serif;
+    color: white;
+    text-shadow: 0 0 8px black;
+    text-align: center;
+    font-weight: 400;    
+}
+
+/* FLEET */
+
+#features {
+    padding: 100px 0;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.feature-img img {
+    width: 100%;
+}
+
+.price {
+    width: 50px;
+    height: 50px;
+    background: #ff5722;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+}
+
+.feature-img {
+    position: relative;
+}
+
+.rating {
+    padding: 3px;
+    float: right;
+    background: white;
+    bottom: -1px;
+    right: 0;
+    position: absolute;
+    border-top-left-radius: 10px;
+
+}
+
+#features .fa {
+    font-size: 15px;
+    color: #ff5722;
+}
+
+.feature-details {
+    padding: 20px;
+    text-align: justify;
+    
+}
+
+.feature-details h4 {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.feature-details .fa {
+    margin-right: 5px;
+}
+
+.feature-box {
+    box-shadow: 0 0 10px 1px rgba(37,73,214, 0.18) ;
+    margin-bottom: 30px;
+}
+
+/* GALLERY */
+
+#gallery {
+    padding: 100px 0;
+    background-color: #efefef ;
+}
+
+.gallery-box img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.gallery-box img:hover{
+    transform: scale(1.1);
+}
+
+.gallery-box h4 {
+    display: block;
+    color: #fff;
+    text-shadow: -2px 2px 2px #000;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gallery-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+/* BANNER */
+
+#banner {
+    height: 700px;
+    background-image: url(images/seas.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 14%;
+}
+
+.banner-highlights {
+    padding: 70px 0;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color: white;
+}
+
+.booking-btn {
+    width: 120px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* TESTIMONIALS */
+
+#users-feedback {
+    padding: 100px 0;
+}
+
+.user-review {
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,100, 0.2);
+    padding-bottom: 50px;
+}
+
+.user-review p {
+    padding: 50px 10px 10px 10px;
+}
+
+#users-feedback img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 0 20px 40%;
+}
+
+.user-review p::before {
+    content: '\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: #6495ed;
+    font-family: sans-serif;
+    left: 44%;
+    top: -20px;
+}
+
+/* FOOTER */
+
+#footer {
+    padding: 100px 20px 15px;
+    text-align: center;
+    background-image: linear-gradient(#dce6f1, #0c84f58f);
+}
+
+#footer img {
+    float: left;
+    width: 120px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#footer h4 {
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+#footer h2 {
+    text-align: left;
+}
+
+#footer p {
+    font-size: 15px;
+    text-align: justify;
+    padding-right: 35px;
+}
+
+#footer ul {
+    font-size: 20px;
+    text-align: left;
+    list-style-type: none;
+    display: block;
+}
+
+#footer ul li :hover {
+    color: white;
+    text-emphasis: none;
+    text-decoration: none;
+}
+
+#footer .row .fa {
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+#footer  hr {
+    margin-top: 10px;
+    background: white;
+}
+
+.fa-star {
+    margin: 0 5px;
+    color: #f44336;
+}
+
+#footer .copyright {
+    text-align: center;
+}
